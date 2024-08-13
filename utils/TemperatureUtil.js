@@ -20,6 +20,7 @@ const TemperatureUtil = () => {
         }
     }
 
+    const tries = 0;
     return { convert };
 }
 
