@@ -9,6 +9,7 @@ describe("TemperatureUtil unit tests", () => {
         let input = new TemperatureVO(20, "CELSIUS");
         let expectedOutput = new TemperatureVO(68, "FAHRENHEIT");
 
+        
         // WHEN
         let actualOutput = convert(input, "FAHRENHEIT");
 
